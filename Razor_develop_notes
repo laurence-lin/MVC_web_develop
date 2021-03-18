@@ -1,4 +1,19 @@
+
+View: MVC架構中, 將後端Controller處理完資料組裝成HTML到前端進行顯示
+View接收的資料分為:
+強行別: viewmodel
+弱型別: ViewData, ViewBag
+
+
+Controller回傳資料給View:
+  以viewmodel回傳: return View()
+
+
+
+
 Razor標記網頁開發語法筆記:
+
+
 
 View目錄中, 以@開頭的皆為Razor語法
 
