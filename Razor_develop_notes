@@ -16,8 +16,9 @@ View目錄中, 以@開頭的皆為Razor語法
 {}為程式區塊
 
 
-讀取變數:
-@Variable
+讀取變數: @Variable
+  宣告變數: @{ var X1 = 5 }
+  讀取變數: <p>Value of variable is : @X1</p>           =>輸出5
 
 將一列當成文字輸出:  @:
 @:這是輸出文字哈哈
