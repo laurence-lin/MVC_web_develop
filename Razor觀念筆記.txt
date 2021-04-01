@@ -1,0 +1,14 @@
+
+Razor的用途為Embedded server code到web page上。
+在Razor programming syntax中，我們可編輯html網頁內容，亦可使用Server based code: VB, C#和後端Server溝通。
+Razor syntax遵守Microsoft ASP.NET的規範。
+
+Razor web page包含兩種元素: HTML content, Razor code
+Razor code用來和後端溝通, 讀取資料庫。HTML content將Razor code讀取的內容呈現在網頁前端，使前端看起來就像只有HTML的靜態網頁。
+
+執行Razor:
+   會先讀取Razor code內容，再讀取HTML內容在網頁呈現。
+
+
+
+
