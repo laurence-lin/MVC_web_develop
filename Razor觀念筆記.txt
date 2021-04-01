@@ -17,6 +17,8 @@ Razor中使用C#的檔案名為.cshtml,可再此檔案中編輯html內容，若�
 
 Controller: 接收user request, 從database取資料，並決定要回傳什麼資訊到browser
 
+View:只會接收Controller傳送的資料並進行顯示，絕不能和後端做直接溝通
+
 
 
 
