@@ -15,6 +15,9 @@ Razor code中物件:
 Razor中使用C#的檔案名為.cshtml,可再此檔案中編輯html內容，若需呼叫動態物件使用@來進行Server coding.
 
 
+Controller: 接收user request, 從database取資料，並決定要回傳什麼資訊到browser
+
+
 
 
 
