@@ -8,6 +8,12 @@ Razor code用來和後端溝通, 讀取資料庫。HTML content將Razor code讀�
 
 執行Razor:
    會先讀取Razor code內容，再讀取HTML內容在網頁呈現。
+   
+Razor code中物件:
+  Server coding中的動態變數為物件，加上@來指向。如C#內建物件:@DateTime.Now.Second 可回傳動態的即時時間
+  
+Razor中使用C#的檔案名為.cshtml,可再此檔案中編輯html內容，若需呼叫動態物件使用@來進行Server coding.
+
 
 
 
