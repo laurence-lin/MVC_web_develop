@@ -12,6 +12,10 @@ C#中，任何物件均需先宣告類別:
 欲建立此table一列的物件來儲存數值:
   List<ML_project> one_row_data = ML_table.get_row()
   one_row_data為物件名稱，ML_project為物件類別，ML_table.get_row()為物件被賦予的內容
+  
+  
+建立新variable: 在 C# 中建立新物件, 通常會用new來initialize
+   var X1 = new Object;
 
 
 
